@@ -1,0 +1,241 @@
+/* Adicionar aqui toda a estilização criada para sua aplicação. */
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+/* HEADER INÍCIO */
+
+.header {
+    background-color: black;
+    border-bottom: 3px solid #32b9cd;
+}
+
+.navbar {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #e3b062;
+    width: 400px;
+}
+
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* top rigth bottom left*/
+    padding: 0 15px;
+/* top && bottom // rigth && left*/
+}
+
+.navbar a {
+    color: #e3b062;
+    text-decoration: none;
+}
+
+.agora a {
+    color: white;
+    font-weight: bold;
+}
+
+.titulo {
+    color: #32b9cd;
+}
+
+/* HEADER FIM */
+
+/* BANNER INÍCIO */
+
+.banner {
+    background-image: url(../assets/imgs/bg-jelly-fish-para_outras_pags.png);
+    background-size: cover;
+    height: 400px;
+}
+
+.banner .container {
+    display: flex;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner .container span {
+    font-weight: bold;
+}
+
+.banner .container p {
+    color: white;
+    width: 150px;
+    font-size: 25px;
+}
+
+/* BANNER FIM */
+
+/* SOCIAL INÍCIO */
+
+.social {
+    height: 400px;
+    width: 100%;
+    background-color: azure;
+}
+
+.social .container {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    width: 100%;
+    height: 100%;
+}
+
+.boxes {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 250px;
+    flex-direction: column;
+}
+
+.box img {
+    height: 50%;
+    width: 40%;
+}
+
+.box h4 {
+    color: blueviolet;
+}
+
+/* SOCIAL FIM */
+
+/* FOOTER INDEX */
+
+.footer {
+    background-color: #32b9cd;
+}
+
+.footer .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    flex-direction: column;
+    padding: 50px 0;
+}
+
+/* FOOTER FIM */
+
+/* CADASTRO */
+.card-cadastro h2{
+    color: #e4005a;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+.card-cadastro{
+    width: 35vw;
+    background-color: #dcdcdc;
+    padding: 15px 15px 0 15px;
+    margin: 48px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 10px;
+}
+
+/* LOGIN */
+
+.login .container{
+    background-image: url(../assets/imgs/bg-jelly-fish-para_outras_pags.png);
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-login{
+    width: 37vw;
+    background-color: #dcdcdc;
+    padding: 15px 15px 0 15px;
+    margin: 137px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 10px;
+}
+
+.campo span{
+    color: #e4005a;
+    font-weight: bolder;
+    margin-top: 10px;
+}
+
+.card-login h2{
+    margin: 15px 0 10px 0;
+    color: #e4005a;
+}
+
+.formulario, .campo{
+    display: flex;
+    width: 90%;
+    flex-direction: column;
+}
+
+.campo input{
+    width: 110%;
+    border: 2px solid var(--azul);
+    border-radius: 10px;
+    height: 30px;
+    text-align: center;
+}
+
+.botao{
+    color: #fff;
+    background-color: #e4005a;
+    width: 100px;
+    align-self: center;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 15px 0;
+}
+
+/* FOOTER DO CADASTRO E LOGIN */
+.footerCadastro {
+    background-color: #32b9cd;
+}
+
+.footerCadastro .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    flex-direction: column;
+    padding: 24px 0;
+}
+
+.footerLogin {
+    background-color: #32b9cd;
+}
+
+.footerLogin .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    flex-direction: column;
+    padding: 21px 0;
+}
